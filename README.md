@@ -23,6 +23,10 @@ This repository contains the example inference script for the MEMO-preview model
 ## Installation
 
 ```bash
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y build-essential
+```
+
+```bash
 conda create -n memo python=3.10 -y
 conda activate memo
 conda install -c conda-forge ffmpeg -y
